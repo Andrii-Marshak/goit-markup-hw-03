@@ -1,2 +1,2 @@
-# goit-markup-hw-03
-HTML-CSS-Flexbox
+# goit-markup-hw-02
+HTML+CSS
