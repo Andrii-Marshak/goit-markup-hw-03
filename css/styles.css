@@ -157,6 +157,8 @@ nav ul {
     place-items: center;
     background-color: var(--primary-color);
     text-align: center;
+    padding: 188px 0;
+
 }
 
 .main_heading,
@@ -166,6 +168,8 @@ nav ul {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .hero-button {
@@ -176,7 +180,13 @@ nav ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: #4d5ae5;
+    background-color: var(--button-bg-color, #4d5ae5);
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
 }
 
 
@@ -189,6 +199,13 @@ nav ul {
 
 /* #region service */
 
+.service-container {
+    width: 1159px;
+    height: 600px;
+    background-color: #2e2f42;
+    padding: 120px 0;
+    margin: 0 auto;
+}
 
 .order_service {
     font-weight: 500;
@@ -211,6 +228,11 @@ nav ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.hero-h1-title {
+    width: 496px;
+    padding: 188px 0;
 }
 
 .service_title {
