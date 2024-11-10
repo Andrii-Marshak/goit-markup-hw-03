@@ -271,21 +271,6 @@ nav ul {
     padding: 120px 0;
 }
 
-.team_member_1 {
-    margin-right: 24px;
-}
-
-.team_member_2 {
-    margin-right: 24px;
-}
-
-.team_member_3 {
-    margin-right: 24px;
-}
-
-.team_member_4 {
-    margin-right: 0;
-}
 
 .team_title {
     font-size: 36px;
@@ -310,6 +295,7 @@ nav ul {
 .team_member {
     background-color: #ffffff;
     text-align: center;
+    margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
@@ -395,6 +381,7 @@ nav ul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    margin-bottom: 8px
 }
 
 .project-title {
