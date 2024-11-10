@@ -147,6 +147,10 @@ nav ul {
 /* #endregion */
 
 /* #region hero */
+.hero-h1-title {
+    width: 496px;
+    padding: 188px 0;
+}
 
 .hero {
     background-color: #2e2f42;
@@ -199,6 +203,10 @@ nav ul {
 
 /* #region service */
 
+.services {
+    padding: 120px 0;
+}
+
 .visually-hidden {
     display: none;
 }
@@ -208,14 +216,13 @@ nav ul {
     gap: 24px;
 }
 
-
 .service {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     height: 112px;
-
 }
 
-.order_service {
+. .order_service {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -239,10 +246,6 @@ nav ul {
     color: var(--slate);
 }
 
-.hero-h1-title {
-    width: 496px;
-    padding: 188px 0;
-}
 
 .service_title {
     font-size: 20px;
