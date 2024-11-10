@@ -141,7 +141,7 @@ nav ul {
 }
 
 .contact-link:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 /* #endregion */
@@ -150,6 +150,8 @@ nav ul {
 .hero-h1-title {
     width: 496px;
     padding: 188px 0;
+
+
 }
 
 .hero {
@@ -208,7 +210,14 @@ nav ul {
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .services-list {
@@ -218,11 +227,10 @@ nav ul {
 
 .service {
     width: calc((100% - 72px) / 4);
-    flex-basis: calc((100% - 72px) / 4);
     height: 112px;
 }
 
-. .order_service {
+.order_service {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -230,6 +238,8 @@ nav ul {
     border: none;
     color: #ffffff;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
 
 
@@ -262,17 +272,24 @@ nav ul {
 /* #region team
  */
 .team {
-    background-color: var(--light-bg);
+
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
-.team_title,
-.portfolio__title {
+.team_title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-color);
+    margin-bottom: 72px;
+}
+
+.team_list {
+    display: flex;
+    gap: 24px;
 }
 
 .team_member_name,
@@ -283,6 +300,7 @@ nav ul {
 .team_member {
     background-color: #ffffff;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team_member_name {
@@ -291,6 +309,7 @@ nav ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team_member_role {
@@ -298,6 +317,7 @@ nav ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 /* #endregion */
@@ -313,30 +333,51 @@ nav ul {
 
 .portfolio {
     background-color: #ffffff;
+    padding: 96px 0 120px;
+}
+
+.portfolio__title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.portfolio__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio__project-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* #endregion */
 
 /* #region footer */
 .footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    color: #4d5ae5;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
+    color: #4d5ae5;
 }
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo-text {
@@ -344,10 +385,11 @@ nav ul {
 }
 
 .footer-description {
-    color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
+    width: 264px;
 }
 
 /* #endregion */
