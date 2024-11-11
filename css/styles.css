@@ -399,7 +399,6 @@ nav ul {
 
 /* #region footer */
 .footer-logo {
-    display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -408,6 +407,7 @@ nav ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
 }
 
 .contact-link {
@@ -435,7 +435,7 @@ nav ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: #f4f4fd;
     max-width: 264px;
 }
 
