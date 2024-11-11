@@ -404,10 +404,6 @@ nav ul {
     padding: 100px 0;
 }
 
-.container {
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
 .footer_info {
     margin-right: 120px;
@@ -424,6 +420,7 @@ nav ul {
     color: #4d5ae5;
     display: inline-block;
 }
+
 
 .footer-logo-text {
     color: #f4f4fd;
